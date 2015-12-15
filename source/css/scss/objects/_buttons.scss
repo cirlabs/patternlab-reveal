@@ -1,0 +1,40 @@
+/*------------------------------------*\
+    $BUTTONS
+\*------------------------------------*/
+.btn {
+	display: inline-block;
+	background: $cir-neutral-dark;
+	color: $white;
+	line-height: 1;
+	font-weight: bold;
+	padding: $pad;
+	border: 0;
+	text-align: center;
+	
+	&:hover, &:focus {
+		background: $cir-neutral;
+		color: $white;
+	}
+
+	&.disabled {
+		background: $cir-neutral-light;
+		color: $cir-neutral;
+	}
+}
+
+.btn-small {
+	padding: $pad-half;
+}
+
+.btn-large {
+	padding: $pad-half;
+	text-transform: uppercase;
+	background: $cir-neutral;
+	font-size: 1.4rem;
+	font-weight: normal;
+}
+
+
+.text-btn {
+	font-style: italic;
+}

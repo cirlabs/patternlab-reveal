@@ -1,0 +1,39 @@
+/*------------------------------------*\
+    $FOOTER
+\*------------------------------------*/
+.footer {
+	clear: both;
+	overflow: hidden;
+	background: $cir-neutral-dark;
+	color: $white;
+	line-height: 1.2;
+
+	a {
+		color: $cir-neutral-light;
+	}
+}
+
+//Footer Nav
+.nav-footer {
+	margin: (-$pad) (-$pad) $space;
+
+	li {
+		border-bottom: 1px solid $cir-neutral-light;
+
+		@media all and (min-width: $bp-med) {
+			border: 0;
+			float: left;
+		}
+	}
+
+	a {
+		display: block;
+		padding: $pad;
+	}
+}
+
+.copyright {
+	@media all and (min-width: $bp-med) {
+		float: right;
+	}
+}
